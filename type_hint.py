@@ -9,14 +9,14 @@ class Fraction:
         self.num: int = num
         self.den: int = den
 
-    def __str__(self):
+    def __str__(self) -> str:
         """
         Override the default __str__ function
-        :return: None
+        :return: String representation of the fraction
         """
         return str(self.num) + "/" + str(self.den)
 
-    def add(self, rhs: "Fraction"):
+    def add(self, rhs: "Fraction") -> "Fraction":
         """
         Add the fraction with another fraction (rhs)
         :param rhs: The right-hand-side

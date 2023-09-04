@@ -20,7 +20,11 @@ class Fraction:
         """
         print(self.num, "/", self.num)
 
+    def toDecimal(self):
+        return self.num / self.den
+
 
 frac = Fraction(1, 6)
 print(frac)
 frac.show()
+print(frac.toDecimal())
