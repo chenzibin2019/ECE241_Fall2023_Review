@@ -23,9 +23,6 @@ class Fraction:
     def toDecimal(self):
         return self.num / self.den
 
-def hello():
-    print("1")
-
 half = Fraction(1, 2)
 print(half)
 half.show()
