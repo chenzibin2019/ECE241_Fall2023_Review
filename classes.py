@@ -4,7 +4,7 @@ class Fraction:
     def __init__(self, num, den):
         """
         Constructor: Takes the number and denominator as input
-        :param num: The number
+        :param num: The numerator
         :param den: The denominator
         """
         self.num = num
