@@ -24,7 +24,12 @@ class Fraction:
         return self.num / self.den
 
 
-frac = Fraction(1, 6)
-print(frac)
-frac.show()
-print(frac.toDecimal())
+half = Fraction(1, 2)
+print(half)
+half.show()
+print(half.toDecimal())
+
+quarter = Fraction(1, 4)
+print(quarter)
+quarter.show()
+print(quarter.toDecimal())
