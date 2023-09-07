@@ -18,7 +18,7 @@ class Fraction:
         Print the fraction
         :return: None
         """
-        print(self.num, "/", self.num)
+        print(self.num, "/", self.den)
 
     def toDecimal(self):
         return self.num / self.den
